@@ -16,6 +16,7 @@ Note that the app name denoted [app_name] in this document is the repository nam
 2. (If downloaded) Extract the zip archive
 3. In Android Studio click File > Open and then navigate to the project file (Android studio defaults to the directory of the last opened file)
 
+<!--
 ## Get it on Google Play 
 1. Open the Google Play app
 2. Search for [app_name] 
@@ -24,6 +25,7 @@ Note that the app name denoted [app_name] in this document is the repository nam
       alt="Get it on Google Play"   height="80">](https://play.google.com/store/apps/)
 
 Follow the link to the listing on apkpure.com by clicking on the badge above, then download/ install
+-->
 
 ## Download the APK 
 1. Navigate to the [app_name]-APKs directory
@@ -34,6 +36,7 @@ Follow the link to the listing on apkpure.com by clicking on the badge above, th
 
 Follow the link to the APKs directory by clicking on the badge above, then select the preferred APK
 
+<!--
 ## Get it on APKPure
 1. Go to https://m.apkpure.com or open the APKPure app
 2. Search for [app_name] or com.fredhappyface.[app_name]
@@ -42,7 +45,9 @@ Follow the link to the APKs directory by clicking on the badge above, then selec
       alt="Get it on APKPure"   height="80">](https://apkpure.com/[app_name]/[package_name])
 
 Follow the link to the listing on apkpure.com by clicking on the badge above, then download/ install
+-->
 
+<!--
 ## Get it on APKMirror
 1. Go to https://www.apkmirror.com
 2. Search for [app_name] 
@@ -51,15 +56,17 @@ Follow the link to the listing on apkpure.com by clicking on the badge above, th
       alt="Get it on APKMirror"   height="80">](https://www.apkmirror.com/)
 
 Follow the link to the listing on apkmirror.com by clicking on the badge above, then download/ install
+-->
 
 # Licence 
 MIT License
 Copyright (c) Kieran W
 (See the [LICENSE](/LICENSE.md) for more information.)
 
+<!--
 # Screenshots
-
 |Screenshots| |
 |:-:|:-:|
 | ![Screenshot 1](readme-assets/screenshot-1.png?raw=true) | ![Screenshot 2](readme-assets/screenshot-2.png?raw=true) |
 | ![Screenshot 3](readme-assets/screenshot-3.png?raw=true) | ![Screenshot 4](readme-assets/screenshot-4.png?raw=true) |
+-->
