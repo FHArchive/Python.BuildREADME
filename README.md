@@ -12,6 +12,7 @@ C#
 
 Go
 - go 1.6 (Dcoder for Android)
+- go 1.10.4 (Dcoder for Android)
 
 Haskell
 - ghc 7.6 (Dcoder for Android)
