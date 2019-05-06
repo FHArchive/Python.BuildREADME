@@ -1,0 +1,93 @@
+Help for build.py - Author Kieran W
+2019-05-06
+
+Note: where .md is shown as a file extension, this can be omitted 
+
+-n --nocore 
+Option to determine if core fragments are added to the output. Recommended to omit 
+this.
+
+Core modules are 
++---core
+|       proj-desc.md
+|       proj-down.md
+|       proj-lice.md
+|       proj-name.md
+
+-o --output
+Enter the filename to output to with or without '.md'. Leave blank for default
+
+-l --lang
+Enter the programming language to use in the form ide/language or language.
+Use the latter for generalized readme.
+Leave blank for none 
+
+Options are:
+
++---lang
+|   |   android.md
+|   |   arm-v7.md
+|   |   c-sharp.md
+|   |   cpp.md
+|   |   go.md
+|   |   haskell.md
+|   |   java-8.md
+|   |   java.md
+|   |   minix-c.md
+|   |
+|   \---ide
+|       +---android-studio
+|       |       android.md
+|       |
+|       +---dcoder
+|       |       go-1.10.4.md
+|       |       go-1.6.md
+|       |       haskell-7.6.md
+|       |
+|       +---eclipse
+|       |       java.md
+|       |
+|       +---idle
+|       |       python-3.4.md
+|       |       python-3.7.md
+|       |
+|       +---vs
+|       |       c-sharp.md
+|       |       cpp.md
+|       |       java-8.md
+|       |
+|       \---vs-code
+
+-s --support
+Enter the type of support to use. Leave blank for none 
+
+\---support
+        full.md
+        limited.md
+        none.md
+
+-i --images --screenshots
+Enter the type of screenshots to use
+
++---screenshots
+|       desktop-mobile.md
+|       desktop.md
+|       mobile.md
+
+-e --extras
+Enter any extras. Use -e for each extra
+
++---extras
+|       proj-browser-support.md
+|       proj-icon.md
+|       proj-theme.md
+
+eg. for a pwa with an icon and themes, you may want to add the options
+-o proj-browser-support -o proj-icon -o proj-theme
+
+-v --verbose 
+Print debug to the terminal
+
+-p --param 
+Specify parameters in the form -p param=value eg.
+-p proj-name="my fantastic project"

@@ -4,12 +4,6 @@ This program is written in Go 1.10.4 using the Dcoder app for Android https://pl
 ## Other versions
 The most recent version of Go can be downloaded from the link https://golang.org/doc/install this also provides installation instructions. If you would prefer to use Go in the browser, follow this link https://play.golang.org/ 
 # How to run 
-## Method 1 
-1. Download or clone this GitHub repository 
-2. (If downloaded) Extract the zip archive (some file managers on android do not
-provide unzipping functionality)
-3. Copy the code into the Dcoder app and hit the "play" button to run
-## Method 2
-1. Download or clone this GitHub repository 
-2. (If downloaded) Extract the zip archive
-3. Copy the code into https://play.golang.org/ and click "Run"
+Copy the code into the Dcoder app and hit the "play" button to run
+or copy the code into https://play.golang.org/ and click "Run"
+

@@ -1,2 +1,0 @@
-# FYI This repository will not be updated 
-This repository will not receive any feature updates but will receive bug fixes. Furthermore, feel free to use the code/ fork the project providing that any licences are complied with. 

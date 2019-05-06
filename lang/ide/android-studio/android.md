@@ -50,7 +50,7 @@ Follow the link to the APKs directory by clicking on the badge above, then selec
 <!--
 ## Get it on APKPure
 1. Go to https://m.apkpure.com or open the APKPure app
-2. Search for [app_name] or com.fredhappyface.[app_name]
+2. Search for [app_name] or [author].[app_name]
 ### Or
 [<img src="readme-assets/apkpure-download.png"
       alt="Get it on APKPure"   height="80">](https://apkpure.com/[app_name]/[package_name])
@@ -58,15 +58,3 @@ Follow the link to the APKs directory by clicking on the badge above, then selec
 Follow the link to the listing on apkpure.com by clicking on the badge above, then download/ install
 -->
 
-# Licence 
-MIT License
-Copyright (c) Kieran W
-(See the [LICENSE](/LICENSE.md) for more information.)
-
-<!--
-# Screenshots
-|Screenshots| |
-|:-:|:-:|
-| <img src="readme-assets/screenshot-1.PNG" alt="Screenshot 1" width="300"> | <img src="readme-assets/screenshot-2.PNG" alt="Screenshot 2" width="300"> |
-| <img src="readme-assets/screenshot-3.PNG" alt="Screenshot 3" width="300"> | <img src="readme-assets/screenshot-4.PNG" alt="Screenshot 4" width="300"> |
--->
