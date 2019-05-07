@@ -102,6 +102,7 @@ if args.support:
 # Advanced/ Python Help
 if args.advanced_help:
     print(fileToString(DIR_R + "build-help.txt"))
+    exit()
     
 
 '''

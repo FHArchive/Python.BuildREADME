@@ -1,6 +1,3 @@
-<!--
-
--->
 # Download
 ## Clone
 ### Using The Command Line 
