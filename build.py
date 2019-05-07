@@ -194,7 +194,9 @@ Replace elements of the output file with params (-p)
 if args.param is not None:
     for element in range(len(args.param)):
         param = args.param[element].split('=')
-        buildString.replace('['+param[0]+']',param[1])
+        if(debug):
+            print("param: " , param)
+        buildString = buildString.replace("["+param[0]+"]",param[1])
 
 '''
 Output the file 
