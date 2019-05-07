@@ -8,4 +8,3 @@ To install Python, go to https://www.python.org/ and download the latest version
 # How to run
 1. Open the .py file in IDLE
 2. Run by pressing F5 or by selecting Run> Run Module
-

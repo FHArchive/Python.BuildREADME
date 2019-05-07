@@ -20,4 +20,3 @@ This PWA is not supported on these browsers, functionality and visuals may not w
 |Internet Explorer|TOR Browser|Other Browsers|
 |:-:|:-:|:-:|
 | <img src="readme-assets/browsers/ie.png" alt="Internet Explorer" width="200"> | <img src="readme-assets/browsers/tor.png" alt="TOR Browser" width="200"> | <img src="readme-assets/browsers/browser.png" alt="Other Browsers" width="200"> |
-

@@ -142,8 +142,8 @@ More information can be found at https://help.github.com/en/desktop/contributing
 
 ## Download Zip File
 
-1. Download or clone this GitHub repository
-2. (If downloaded) Extract the zip archive
+1. Download this GitHub repository
+2. Extract the zip archive
 3. Copy/ move to the desired location
 
 # Language information 
@@ -174,7 +174,7 @@ TODO: Add screenshots to readme-assets/screenshots/desktop/ named screenshot-[nu
 | <img src="readme-assets/screenshots/desktop/screenshot-1.png" alt="Screenshot 1" width="600"> |
 | <img src="readme-assets/screenshots/desktop/screenshot-2.png" alt="Screenshot 2" width="600"> |
 | <img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600"> | 
-| <img src="readme-assets/screenshots/desktop/screenshot-4.png" alt="Screenshot 4" width="600"> |
+
 
 # Limited Support
 Expect this project to be supported for approximately 6 months (for bug-fixes only).

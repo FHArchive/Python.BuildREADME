@@ -8,4 +8,3 @@ https://www.haskell.org/
 ## Programming Guide 
 A programming guide for this language can be found at:
 https://www.haskell.org/documentation/
-

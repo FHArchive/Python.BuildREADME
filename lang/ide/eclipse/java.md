@@ -16,4 +16,3 @@ To install the latest version of eclipse go to https://www.eclipse.org/downloads
 1. Create a new project
 2. Copy the .java file(s) into the project
 3. Run the program with Ctrl + F11
-

@@ -39,7 +39,7 @@ def fileToString(filepath):
         data = file.read()
         for line in range (len(data)):
             string += data[line]
-    return string + FRAH_DIV
+    return string + FRAG_DIV
 
 
 '''

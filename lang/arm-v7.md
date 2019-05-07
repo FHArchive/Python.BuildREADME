@@ -58,4 +58,3 @@ gdb model
 - Run next line only: s
 - Help: h
 - Quit: q
-

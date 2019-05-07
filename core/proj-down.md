@@ -23,7 +23,6 @@ More information can be found at https://help.github.com/en/desktop/contributing
 
 ## Download Zip File
 
-1. Download or clone this GitHub repository
-2. (If downloaded) Extract the zip archive
+1. Download this GitHub repository
+2. Extract the zip archive
 3. Copy/ move to the desired location
-

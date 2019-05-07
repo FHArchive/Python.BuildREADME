@@ -23,4 +23,3 @@ file (if the 64-bit version has been installed)
 2. (If downloaded) Extract the zip archive
 3. Copy the .java file(s) into a new project
 4. Run the program with Ctrl + F11
-

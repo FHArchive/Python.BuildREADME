@@ -5,4 +5,3 @@ TODO: Complete proj-lice and proj-author (specify the licence used and the autho
 [proj-lice] License
 Copyright (c) [proj-author]
 (See the [LICENSE](/LICENSE.md) for more information.)
-

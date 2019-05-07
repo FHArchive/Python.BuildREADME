@@ -6,4 +6,3 @@ The most recent version of Go can be downloaded from the link https://golang.org
 # How to run 
 Copy the code into the Dcoder app and hit the "play" button to run
 or copy the code into https://play.golang.org/ and click "Run"
-

@@ -8,4 +8,3 @@ https://en.wikipedia.org/wiki/C%2B%2B
 ## Programming Guide 
 A programming guide for this language can be found at:
 http://www.cplusplus.com/
-

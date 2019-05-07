@@ -6,4 +6,3 @@ Haskell can be downloaded from https://www.haskell.org/platform/ . If you would 
 # How to run 
 Copy the code into the Dcoder app and hit the “play” button to run or 
 copy the code into https://repl.it/repls/GlamorousRustyDesign and click “Run”
-

@@ -24,4 +24,3 @@ cc -Wall -std=c99 myprogram.c -o myprogram
 ```
 ./myprogram
 ```
-
