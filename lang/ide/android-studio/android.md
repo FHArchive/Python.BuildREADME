@@ -19,7 +19,9 @@ name following the period. (for Android.BlackC4t, the app_name is BlackC4t)
 
 ### Build From Source
 1. Download or clone this GitHub repository
+
 2. (If downloaded) Extract the zip archive
+
 3. In Android Studio click File > Open and then navigate to the project file 
 (Android studio defaults to the directory of the last opened file)
 
