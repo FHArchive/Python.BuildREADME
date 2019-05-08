@@ -13,7 +13,9 @@ name following the period. (for Android.BlackC4t, the app_name is BlackC4t)
 
 ### Build From Source
 1. Download or clone this GitHub repository
+
 2. (If downloaded) Extract the zip archive
+
 3. In Android Studio click File > Open and then navigate to the project file 
 (Android studio defaults to the directory of the last opened file)
 
@@ -46,6 +48,7 @@ above, then download/ install
 
 ### Download the APK 
 1. Navigate to the :app_name:-APKs directory
+
 2. Select the debug or release APK depending on your preference. Note that the 
 filenames are in the form: app-(debug/release)-yyyymmdd.apk (I would recommend 
 downloading the most recent release APK)

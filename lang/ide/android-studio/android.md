@@ -40,6 +40,7 @@ then download/ install
 ### Available at Amazon Appstore 
 1. Open the Amazon Appstore (can be downloaded from 
 <https://www.amazon.co.uk/androidapp>)
+
 2. Search for :app_name:
 #### Or
 [<img src="readme-assets/amazon-appstore-download.png"
@@ -52,6 +53,7 @@ above, then download/ install
 
 ### Download the APK 
 1. Navigate to the :app_name:-APKs directory
+
 2. Select the debug or release APK depending on your preference. Note that the 
 filenames are in the form: app-(debug/release)-yyyymmdd.apk (I would recommend 
 downloading the most recent release APK)

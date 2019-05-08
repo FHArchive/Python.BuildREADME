@@ -9,7 +9,10 @@ Windows 10. To install this IDE, go to <https://visualstudio.microsoft.com/>
 4. Run the program by pressing the green play button or with F5
 ### Method 2
 1. Download or clone this GitHub repository 
+
 2. (If downloaded) Extract the zip archive
+
 3. Go to bin> Debug
+
 4. Double click the .exe file (note that windows will ask if you want to run 
 the file - only run executables that you trust)

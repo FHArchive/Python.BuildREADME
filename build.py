@@ -185,7 +185,7 @@ Support
 '''
 if args.support is not None:
     buildString += fileToString(DIR_S + fileExt(args.support))
-    if (debug):       
+    if (debug):
         print("added support")
 
 
@@ -209,5 +209,5 @@ else:
 stringToFile(outFileName, buildString)
 if (debug):
         print("written file")
-        
+
 

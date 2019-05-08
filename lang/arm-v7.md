@@ -53,7 +53,7 @@ gdb model
 ```
 ### Noteworthy commands
 - List the next 10 lines: l
-- Set breakpoint: b [line number]
+- Set breakpoint: b (line number)
 - Run the program: r
 - Continue to the next breakpoint: c
 - Output register values: i r
