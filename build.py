@@ -1,5 +1,5 @@
 '''
-Author Kieran W 2019-05-06
+Author Kieran W 2019-05-08
 
 Build a README file using fragments from the following subdirectories
 
@@ -83,6 +83,8 @@ parser.add_argument("-v", "--verbose", help="print debug output",
                     action="store_true")
 parser.add_argument("-p", "--param", help="specify a parameter, these replace elements of markdown, eg. proj-name",
                     action="append")
+parser.add_argument("-c", "--config", help="use config (under req)",
+                    action="store_true")
 
 parser.add_argument("-a", "--advanced-help", action="store_true")
 
@@ -123,6 +125,15 @@ Optional 'info' uncomment to include
 buildString += fileToString(DIR_R + fileExt("info"))
 if (debug):
      print("added info")
+
+'''
+Badges
+'''
+if len(extras) > 0:
+    if 'proj-badges.md' in extras:
+        buildString += fileToString(DIR_E + fileExt("proj-badges"))
+        if (debug):
+            print("added badges")
 
 '''
 Core elements / Insert project icon?
@@ -198,6 +209,19 @@ if args.param is not None:
         if(debug):
             print("param: " , param)
         buildString = buildString.replace(":"+param[0]+":",param[1])
+
+'''
+Replace elements of the output file with config.txt (-c)
+'''
+if args.config:
+    elements = fileToString(DIR_R + "config.txt").split('\n')
+    for element in elements:
+        param = element.split('=')
+        if(debug):
+            print("param: " , param)
+        if len(param) == 2:
+            buildString = buildString.replace(":"+param[0]+":",param[1])
+
 
 '''
 Output the file 

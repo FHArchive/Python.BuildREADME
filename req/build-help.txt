@@ -1,5 +1,5 @@
 Help for build.py - Author Kieran W
-2019-05-06
+2019-05-08
 
 Note: where .md is shown as a file extension, this can be omitted 
 
@@ -91,3 +91,6 @@ Print debug to the terminal
 -p --param 
 Specify parameters in the form -p param=value eg.
 -p proj-name="my fantastic project"
+
+-c --config 
+Use config.txt (under req)

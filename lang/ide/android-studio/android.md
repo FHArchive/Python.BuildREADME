@@ -1,10 +1,15 @@
+<!--
+TODO: complete :target-sdk:, :minimum-sdk:, :target-android:,
+:minimum-android:, :name:, and :package:
+-->
+
 ## Language Information 
 
 ### Java and Android Version
 This app has been written in the Java programming language with the Android 
 Studio IDE.
-- The target SDK version is :target_sdk: (Android :target_android:)
-- The minimum SDK version is :minimum_sdk: (Android :minimum_android:)
+- The target SDK version is :target-sdk: (Android :target-android:)
+- The minimum SDK version is :minimum-sdk: (Android :minimum-android:)
 
 ### Download Android Studio
 Download the Android Studio IDE from <https://developer.android.com/studio/>. 
@@ -28,7 +33,7 @@ name following the period. (for Android.BlackC4t, the app_name is BlackC4t)
 <!--
 ### Get it on Google Play 
 1. Open the Google Play app
-2. Search for :app_name: 
+2. Search for :name: 
 #### Or
 [<img src="readme-assets/badges/google-play-download.png"
       alt="Get it on Google Play"   height="80">]
@@ -42,18 +47,18 @@ then download/ install
 ### Available at Amazon Appstore 
 1. Open the Amazon Appstore (can be downloaded from 
 <https://www.amazon.co.uk/androidapp>)
-2. Search for :app_name:
+2. Search for :name:
 #### Or
 [<img src="readme-assets/badges/amazon-appstore-download.png"
       alt="Available at Amazon Appstore"   height="80">]
-(http://www.amazon.com/gp/mas/dl/android?p=:package_name:&ref=mas_pm_[app_name])
+(http://www.amazon.com/gp/mas/dl/android?p=:package:&ref=mas_pm_:name:)
 
 Follow the link to the listing on the Amazon Appstore by clicking on the badge 
 above, then download/ install
 -->
 
 ### Download the APK 
-1. Navigate to the :app_name:-APKs directory
+1. Navigate to the :name:-APKs directory
 
 2. Select the debug or release APK depending on your preference. Note that the 
 filenames are in the form: app-(debug/release)-yyyymmdd.apk (I would recommend 
@@ -68,11 +73,11 @@ select the preferred APK
 <!--
 ### Get it on APKPure
 1. Go to <https://m.apkpure.com> or open the APKPure app
-2. Search for :app_name: or :author:.
+2. Search for :name: or :author:.
 #### Or
 [<img src="readme-assets/badges/apkpure-download.png"
       alt="Get it on APKPure"   height="80">]
-      (https://apkpure.com/:app_name:/:package_name:)
+      (https://apkpure.com/:name:/:package:)
 
 Follow the link to the listing on apkpure.com by clicking on the badge above, 
 then download/ install

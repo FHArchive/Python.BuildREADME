@@ -1,5 +1,5 @@
 <!--
-TODO: Complete proj-name 
+TODO: Complete name 
 -->
 
-# :proj-name:
+# :name:
