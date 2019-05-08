@@ -1,12 +1,28 @@
 <p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/a4940b97c63343748980be798f87673a.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/a4940b97c63343748980be798f87673a.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/python.buildreadme.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Last commit">
+<img src="https://img.shields.io/github/languages/top/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="Github top language">
+<img src="https://img.shields.io/codacy/grade/
+a4940b97c63343748980be798f87673a.svg?style=flat-square" 
+alt="Codacy grade">
+<img src="https://img.shields.io/codacy/coverage/
+a4940b97c63343748980be798f87673a.svg?style=flat-square" 
+alt="Codacy coverage">
+<img src="https://img.shields.io/github/repo-size/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="Repository size">
+<img src="https://img.shields.io/github/issues/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="Issues">
+<img src="https://img.shields.io/github/license/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="License">
+<img src="https://img.shields.io/github/commit-activity/m/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="Commit activity">
+<img src="https://img.shields.io/github/last-commit/
+fredhappyface/python.buildreadme.svg?style=flat-square" 
+alt="Last commit">
 </p>
 
 
