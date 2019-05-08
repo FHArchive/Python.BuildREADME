@@ -28,7 +28,7 @@ name following the period. (for Android.BlackC4t, the app_name is BlackC4t)
 1. Open the Google Play app
 2. Search for :app_name: 
 #### Or
-[<img src="readme-assets/google-play-download.png"
+[<img src="readme-assets/badges/google-play-download.png"
       alt="Get it on Google Play"   height="80">]
       (https://play.google.com/store/apps/)
 
@@ -40,12 +40,11 @@ then download/ install
 ### Available at Amazon Appstore 
 1. Open the Amazon Appstore (can be downloaded from 
 <https://www.amazon.co.uk/androidapp>)
-
 2. Search for :app_name:
 #### Or
-[<img src="readme-assets/amazon-appstore-download.png"
+[<img src="readme-assets/badges/amazon-appstore-download.png"
       alt="Available at Amazon Appstore"   height="80">]
-      (http://www.amazon.com/gp/mas/dl/android?p=[package_name]&ref=mas_pm_[app_name])
+(http://www.amazon.com/gp/mas/dl/android?p=:package_name:&ref=mas_pm_[app_name])
 
 Follow the link to the listing on the Amazon Appstore by clicking on the badge 
 above, then download/ install
@@ -58,8 +57,8 @@ above, then download/ install
 filenames are in the form: app-(debug/release)-yyyymmdd.apk (I would recommend 
 downloading the most recent release APK)
 #### Or
-[<img src="readme-assets/direct-apk-download.png"
-      alt="Direct apk download"   height="80">](/APKs)
+[<img src="readme-assets/badges/direct-apk-download.png"
+    alt="Direct apk download"   height="80">](/APKs)
 
 Follow the link to the APKs directory by clicking on the badge above, then 
 select the preferred APK
@@ -69,7 +68,7 @@ select the preferred APK
 1. Go to <https://m.apkpure.com> or open the APKPure app
 2. Search for :app_name: or :author:.
 #### Or
-[<img src="readme-assets/apkpure-download.png"
+[<img src="readme-assets/badges/apkpure-download.png"
       alt="Get it on APKPure"   height="80">]
       (https://apkpure.com/:app_name:/:package_name:)
 

@@ -114,14 +114,14 @@ extras = []
 if args.extras is not None:
     for index in range(len(args.extras)):
         extras.append(fileExt(args.extras[index]))
-    if (debug):       
+    if (debug):
         print(extras)
 
 '''
 Optional 'info' uncomment to include
 '''
 buildString += fileToString(DIR_R + fileExt("info"))
-if (debug):       
+if (debug):
      print("added info")
 
 '''
@@ -129,30 +129,30 @@ Core elements / Insert project icon?
 '''
 if not args.nocore:
     buildString += fileToString(DIR_C + fileExt("proj-name"))
-    if (debug):       
+    if (debug):
         print("added name")
 
 
 if len(extras) > 0:
     if 'proj-icon.md' in extras:
         buildString += fileToString(DIR_E + fileExt("proj-icon"))
-        if (debug):       
+        if (debug):
             print("added project icon")
 
 if not args.nocore:
     buildString += fileToString(DIR_C + fileExt("proj-desc"))
     buildString += fileToString(DIR_C + fileExt("proj-down"))
-    if (debug):       
+    if (debug):
         print("added description and download instruction")
 
 if args.lang is not None:
     buildString += fileToString(DIR_L + fileExt(args.lang))
-    if (debug):       
+    if (debug):
         print("added language")
 
 if not args.nocore:
     buildString += fileToString(DIR_C + fileExt("proj-lice"))
-    if (debug):       
+    if (debug):
         print("added license")
 
 
@@ -162,7 +162,7 @@ Browser Support
 if len(extras) > 0:
     if 'proj-browser-support.md' in extras:
         buildString += fileToString(DIR_E + fileExt("proj-browser-support"))
-        if (debug):       
+        if (debug):
             print("added browser support")
 
 
@@ -171,7 +171,7 @@ Screenshots / Themes
 '''
 if args.images is not None:
     buildString += fileToString(DIR_I + fileExt(args.images))
-    if (debug):       
+    if (debug):
         print("added screenshots")
 
 if len(extras) > 0:
