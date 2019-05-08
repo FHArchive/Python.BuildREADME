@@ -56,7 +56,7 @@ Add the file extension if required
 '''
 def fileExt(filename):
     fileNameLen = len(FILE_EXT)
-    if args.images[-fileNameLen:] != FILE_EXT:
+    if filename[-fileNameLen:] != FILE_EXT:
         filename += FILE_EXT
     return filename
 
@@ -103,7 +103,7 @@ if args.support:
 if args.advanced_help:
     print(fileToString(DIR_R + "build-help.txt"))
     exit()
-    
+
 
 '''
 Do building 
@@ -177,7 +177,7 @@ if args.images is not None:
 if len(extras) > 0:
     if 'proj-theme.md' in extras:
         buildString += fileToString(DIR_E + fileExt("proj-theme"))
-        if (debug):       
+        if (debug):
             print("added theme")
 
 '''

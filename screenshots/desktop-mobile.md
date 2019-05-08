@@ -1,5 +1,6 @@
 <!--
-TODO: Add screenshots to readme-assets/screenshots/desktop/ named screenshot-[number].png
+TODO: Add screenshots to readme-assets/screenshots/desktop/ named 
+screenshot-[number].png
 and readme-assets/screenshots/mobile/ named screenshot-[number].png
 -->
 
