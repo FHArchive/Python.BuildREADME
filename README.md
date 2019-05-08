@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/github/repo-size/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Repository size">
 <img src="https://img.shields.io/github/issues/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Issues">
 <img src="https://img.shields.io/github/license/fredhappyface/python.buildreadme.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Commit activity>
+<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Commit activity">
 <img src="https://img.shields.io/github/last-commit/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Last commit">
 
 
