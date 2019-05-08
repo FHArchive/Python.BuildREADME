@@ -2,4 +2,4 @@
 TODO: Complete proj-name 
 -->
 
-# [proj-name]
+# :proj-name:

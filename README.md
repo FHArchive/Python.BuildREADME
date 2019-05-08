@@ -2,7 +2,8 @@
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
-A repository consisting of standard readmes providing details of how to run projects written in a range of programming languages
+A repository consisting of standard readmes providing details of how to run 
+projects written in a range of programming languages
 
 
 Build a README file using fragments from the following subdirectories
@@ -14,23 +15,23 @@ support
 screenshots
 extras
 
-# Example Use 
+## Example Use 
 
 Create the template for this markdown file (excludes Example Use and Help)
 ```shell
 py build.py -o README -l ide/idle/python-3.7 -s limited -i desktop -e proj-icon
 ```
 
-# Help
+## Help
 
 Help for build.py - Author Kieran W
 2019-05-06
 
 Note: where .md is shown as a file extension, this can be omitted 
 
-## -n --nocore 
-Option to determine if core fragments are added to the output. Recommended to omit 
-this.
+### -n --nocore 
+Option to determine if core fragments are added to the output. Recommended to 
+omit this.
 
 Core modules are 
 +---core
@@ -39,10 +40,10 @@ Core modules are
 |       proj-lice.md
 |       proj-name.md
 
-## -o --output
+### -o --output
 Enter the filename to output to with or without '.md'. Leave blank for default
 
-## -l --lang
+### -l --lang
 Enter the programming language to use in the form ide/language or language.
 Use the latter for generalized readme.
 Leave blank for none 
@@ -83,7 +84,7 @@ Options are:
 |       |
 |       \---vs-code
 
-## -s --support
+### -s --support
 Enter the type of support to use. Leave blank for none 
 
 \---support
@@ -91,7 +92,7 @@ Enter the type of support to use. Leave blank for none
         limited.md
         none.md
 
-## -i --images --screenshots
+### -i --images --screenshots
 Enter the type of screenshots to use
 
 +---screenshots
@@ -99,7 +100,7 @@ Enter the type of screenshots to use
 |       desktop.md
 |       mobile.md
 
-## -e --extras
+### -e --extras
 Enter any extras. Use -e for each extra
 
 +---extras
@@ -110,77 +111,77 @@ Enter any extras. Use -e for each extra
 eg. for a pwa with an icon and themes, you may want to add the options
 -o proj-browser-support -o proj-icon -o proj-theme
 
-## -v --verbose 
+### -v --verbose 
 Print debug to the terminal
 
-## -p --param 
+### -p --param 
 Specify parameters in the form -p param=value eg.
 -p proj-name="my fantastic project"
 
-## -a --advanced-help
+### -a --advanced-help
 Show the advanced help dialogue 
 
-# Download
-## Clone
-### Using The Command Line 
+## Download
+### Clone
+#### Using The Command Line 
 1. Press the Clone or download button in the top right
 2. Copy the URL (link)
 3. Open the command line and change directory to where you wish to clone to
 4. Type 'git clone' followed by URL in step 2
 ```bash
-$ git clone https://github.com/[user-name]/[repository]
+$ git clone https://github.com/:user-name:/:repository:
 ```
 
-More information can be found at https://help.github.com/en/articles/cloning-a-repository 
+More information can be found at 
+<https://help.github.com/en/articles/cloning-a-repository>
 
-### Using GitHub Desktop
+#### Using GitHub Desktop
 1. Press the Clone or download button in the top right
 2. Click open in desktop
 3. Choose the path for where you want and click Clone
 
-More information can be found at https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop 
+More information can be found at 
+<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop> 
 
-## Download Zip File
+### Download Zip File
 
 1. Download this GitHub repository
 2. Extract the zip archive
 3. Copy/ move to the desired location
 
-# Language information 
-## Built for
+## Language information 
+### Built for
 This program has been written for Python 3 and has been tested with 
-Python version 3.7.0 https://www.python.org/downloads/release/python-370/ 
+Python version 3.7.0 <https://www.python.org/downloads/release/python-370/>
 on a Windows 10 PC. 
-## Other versions
-To install Python, go to https://www.python.org/ and download the latest version. 
-# How to run
+### Other versions
+To install Python, go to <https://www.python.org/> and download the latest 
+version. 
+## How to run
 1. Open the .py file in IDLE
 2. Run by pressing F5 or by selecting Run> Run Module
 
 
-# Licence 
+## Licence 
 MIT License
 Copyright (c) Kieran W
 (See the [LICENSE](/LICENSE.md) for more information.)
 
-<!--
-TODO: Add screenshots to readme-assets/screenshots/desktop/ named screenshot-[number].png
--->
-# Screenshots 
 
-## Desktop 
-|Screenshots|
-|:-:|
-| <img src="readme-assets/screenshots/desktop/screenshot-1.png" alt="Screenshot 1" width="600"> |
-| <img src="readme-assets/screenshots/desktop/screenshot-2.png" alt="Screenshot 2" width="600"> |
-| <img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600"> | 
+## Screenshots 
+
+### Desktop 
+|Screenshots                                                                                  |
+|:-:                                                                                          |
+|<img src="readme-assets/screenshots/desktop/screenshot-1.png" alt="Screenshot 1" width="600">|
+|<img src="readme-assets/screenshots/desktop/screenshot-2.png" alt="Screenshot 2" width="600">|
+|<img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600">| 
 
 
-# Limited Support
-Expect this project to be supported for approximately 6 months (for bug-fixes only).
- Note that this is not guaranteed. Create an issue for bugs
- (as this project is carried out in spare time, you may have 
-to wait for a few days)
+## Limited Support
+Expect this project to be supported for approximately 6 months (for bug-fixes 
+only). Note that this is not guaranteed. Create an issue for bugs (as this 
+project is carried out in spare time, you may have to wait for a few days)
 
 <img src="readme-assets/support/partial.png" alt="Limited Support" width="600">
 

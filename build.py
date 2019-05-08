@@ -37,8 +37,8 @@ def fileToString(filepath):
     string = ''
     with open(filepath, 'r') as file:
         data = file.read()
-        for line in range (len(data)):
-            string += data[line]
+        for line in data:
+            string += line
     return string + FRAG_DIV
 
 
@@ -207,10 +207,7 @@ if args.output is not None:
 else:
     outFileName = FILE_OUT
 stringToFile(outFileName, buildString)
-if (debug):       
+if (debug):
         print("written file")
         
-    
-
-
 

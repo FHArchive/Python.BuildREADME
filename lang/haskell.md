@@ -1,10 +1,10 @@
 <!--
 TODO: Provide additional language information detailing the version and IDE used
 -->
-# Language information 
+## Language information 
 This program is written in Haskell, further information on this language can be found at:
-https://www.haskell.org/
+<https://www.haskell.org/>
 
-## Programming Guide 
+### Programming Guide 
 A programming guide for this language can be found at:
-https://www.haskell.org/documentation/
+<https://www.haskell.org/documentation/>

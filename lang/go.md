@@ -1,10 +1,10 @@
 <!--
 TODO: Provide additional language information detailing the version and IDE used
 -->
-# Language information 
+## Language information 
 This program is written in Go, further information on this language can be found at:
-https://golang.org/
+<https://golang.org/>
 
-## Programming Guide 
+### Programming Guide 
 A programming guide for this language can be found at:
-https://golang.org/doc/
+<https://golang.org/doc/>

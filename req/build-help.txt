@@ -4,8 +4,8 @@ Help for build.py - Author Kieran W
 Note: where .md is shown as a file extension, this can be omitted 
 
 -n --nocore 
-Option to determine if core fragments are added to the output. Recommended to omit 
-this.
+Option to determine if core fragments are added to the output. Recommended to 
+omit this.
 
 Core modules are 
 +---core
