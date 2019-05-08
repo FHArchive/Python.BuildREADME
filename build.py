@@ -197,7 +197,7 @@ if args.param is not None:
         param = args.param[element].split('=')
         if(debug):
             print("param: " , param)
-        buildString = buildString.replace("["+param[0]+"]",param[1])
+        buildString = buildString.replace(":"+param[0]+":",param[1])
 
 '''
 Output the file 
