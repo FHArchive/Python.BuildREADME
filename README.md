@@ -1,3 +1,14 @@
+[![Github top language](https://img.shields.io/github/languages/top/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+[![Codacy grade](https://img.shields.io/codacy/grade/a4940b97c63343748980be798f87673a.svg?style=flat-square)]()
+[![Codacy coverage](https://img.shields.io/codacy/coverage/a4940b97c63343748980be798f87673a.svg?style=flat-square)]()
+[![Repository size](https://img.shields.io/github/repo-size/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+[![Issues](https://img.shields.io/github/issues/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+[![License](https://img.shields.io/github/license/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+[![Commit activity](https://img.shields.io/github/commit-activity/m/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+[![Last commit](https://img.shields.io/github/last-commit/fredhappyface/python.buildreadme.svg?style=flat-square)]()
+
+
+
 # Python.BuildREADME
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
@@ -129,7 +140,7 @@ Show the advanced help dialogue
 3. Open the command line and change directory to where you wish to clone to
 4. Type 'git clone' followed by URL in step 2
 ```bash
-$ git clone https://github.com/:user-name:/:repository:
+$ git clone https://github.com/[user-name]/[repository]
 ```
 
 More information can be found at 
