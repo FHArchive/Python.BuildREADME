@@ -124,7 +124,7 @@ Optional 'info' uncomment to include
 '''
 buildString += fileToString(DIR_R + fileExt("info"))
 if (debug):
-     print("added info")
+    print("added info")
 
 '''
 Badges
@@ -232,6 +232,5 @@ else:
     outFileName = FILE_OUT
 stringToFile(outFileName, buildString)
 if (debug):
-        print("written file")
-
+    print("written file")
 
