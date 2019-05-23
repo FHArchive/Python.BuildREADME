@@ -7,6 +7,8 @@ This mod has been built using the 'A Hat In Time Editor with Nyakuza Metro'.
 This is built on the UE3 editor
 
 ### Learning how to use the editor 
+Here is a useful link: 
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1332838649>
 
 ### Install A Hat In Time Editor For DLC2
 1. Open Steam
