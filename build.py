@@ -13,6 +13,34 @@ extras
 
 '''
 
+# Help Text
+
+HELP_N = """Option to determine if core fragments are added to the output. Recommended to 
+omit this.
+"""
+HELP_O = """Enter the filename to output to with or without '.md'. Leave blank for default
+"""
+HELP_L = """Enter the programming language to use in the form ide/language or language.
+Use the latter for generalized readme.
+Leave blank for none 
+"""
+HELP_S = """Enter the type of support to use. Leave blank for none 
+"""
+HELP_I = """Enter the type of screenshots to use
+"""
+HELP_E = """Enter any extras. Use -e for each extra
+"""
+HELP_V = """Print debug to the terminal
+"""
+HELP_P = """Specify parameters in the form -p param=value eg.
+-p proj-name=''my fantastic project''
+"""
+HELP_C = """Use config.txt (under req)
+"""
+HELP_A = """
+"""
+
+
 # Imports
 import argparse
 
@@ -67,24 +95,15 @@ Command line arguments
 # Program description
 parser = argparse.ArgumentParser(description='Build a README file using fragments from the following subdirectories')
 # Use of -n or --nocore sets nocore to True (excludes core components)
-parser.add_argument("-n", "--nocore", help="add core fragments to output",
-                    action="store_true")
-parser.add_argument("-o", "--output", help="specify the filename to output to",
-                    action="store")
-parser.add_argument("-l", "--lang", help="specify the programming language to use",
-                    action="store")
-parser.add_argument("-s", "--support", help="specify the support to use",
-                    action="store")
-parser.add_argument("-i", "--images", "--screenshots", help="specify the screenshots fragment to use",
-                    action="store")
-parser.add_argument("-e", "--extras", help="specify extra fragments to use. extras = 'proj-icon'",
-                    action="append")
-parser.add_argument("-v", "--verbose", help="print debug output",
-                    action="store_true")
-parser.add_argument("-p", "--param", help="specify a parameter, these replace elements of markdown, eg. proj-name",
-                    action="append")
-parser.add_argument("-c", "--config", help="use config (under req)",
-                    action="store_true")
+parser.add_argument("-n", "--nocore", help=HELP_N, action="store_true")
+parser.add_argument("-o", "--output", help=HELP_O, action="store")
+parser.add_argument("-l", "--lang", help=HELP_L, action="store")
+parser.add_argument("-s", "--support", help=HELP_S, action="store")
+parser.add_argument("-i", "--images", "--screenshots", help=HELP_I, action="store")
+parser.add_argument("-e", "--extras", help=HELP_E, action="append")
+parser.add_argument("-v", "--verbose", help=HELP_V, action="store_true")
+parser.add_argument("-p", "--param", help=HELP_P, action="append")
+parser.add_argument("-c", "--config", help=HELP_C, action="store_true")
 
 parser.add_argument("-a", "--advanced-help", action="store_true")
 

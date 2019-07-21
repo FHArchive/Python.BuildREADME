@@ -34,29 +34,30 @@ Options are:
 |   |   java-8.md
 |   |   java.md
 |   |   minix-c.md
-|   |
+|   |   
 |   \---ide
+|       +---ahit-editor
+|       |       dlc2.md
+|       |       
 |       +---android-studio
 |       |       android.md
-|       |
+|       |       
 |       +---dcoder
 |       |       go-1.10.4.md
 |       |       go-1.6.md
 |       |       haskell-7.6.md
-|       |
+|       |       
 |       +---eclipse
 |       |       java.md
-|       |
+|       |       
 |       +---idle
 |       |       python-3.4.md
 |       |       python-3.7.md
-|       |
-|       +---vs
-|       |       c-sharp.md
-|       |       cpp.md
-|       |       java-8.md
-|       |
-|       \---vs-code
+|       |       
+|       \---vs
+|               c-sharp.md
+|               cpp.md
+|               java-8.md
 
 -s --support
 Enter the type of support to use. Leave blank for none 
@@ -78,6 +79,7 @@ Enter the type of screenshots to use
 Enter any extras. Use -e for each extra
 
 +---extras
+|       proj-badges.md
 |       proj-browser-support.md
 |       proj-icon.md
 |       proj-theme.md
