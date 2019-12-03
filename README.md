@@ -46,11 +46,13 @@ Option to determine if core fragments are added to the output. Recommended to
 omit this.
 
 Core modules are 
+```
 +---core
 |       proj-desc.md
 |       proj-down.md
 |       proj-lice.md
 |       proj-name.md
+```
 
 ### -o --output
 Enter the filename to output to with or without '.md'. Leave blank for default
@@ -61,7 +63,7 @@ Use the latter for generalized readme.
 Leave blank for none 
 
 Options are:
-
+```
 +---lang
 |   |   android.md
 |   |   arm-v7.md
@@ -95,31 +97,31 @@ Options are:
 |       |       java-8.md
 |       |
 |       \---vs-code
-
+```
 ### -s --support
 Enter the type of support to use. Leave blank for none 
-
+```
 \---support
         full.md
         limited.md
         none.md
-
+```
 ### -i --images --screenshots
 Enter the type of screenshots to use
-
+```
 +---screenshots
 |       desktop-mobile.md
 |       desktop.md
 |       mobile.md
-
+```
 ### -e --extras
 Enter any extras. Use -e for each extra
-
+```
 +---extras
 |       proj-browser-support.md
 |       proj-icon.md
 |       proj-theme.md
-
+```
 eg. for a pwa with an icon and themes, you may want to add the options
 -o proj-browser-support -o proj-icon -o proj-theme
 
@@ -128,8 +130,9 @@ Print debug to the terminal
 
 ### -p --param 
 Specify parameters in the form -p param=value eg.
+```
 -p proj-name="my fantastic project"
-
+```
 ### -a --advanced-help
 Show the advanced help dialogue 
 
@@ -189,11 +192,5 @@ Copyright (c) Kieran W
 |<img src="readme-assets/screenshots/desktop/screenshot-2.png" alt="Screenshot 2" width="600">|
 |<img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600">| 
 
-
-## Limited Support
-Expect this project to be supported for approximately 6 months (for bug-fixes 
-only). Note that this is not guaranteed. Create an issue for bugs (as this 
-project is carried out in spare time, you may have to wait for a few days)
-
-<img src="readme-assets/support/partial.png" alt="Limited Support" width="600">
-
+## Support 
+I use vscode as my editor which supports snippets so I will probably discontinue this
