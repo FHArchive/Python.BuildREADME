@@ -1,9 +1,0 @@
-name=:name:
-author=:author:
-license=:license:
-codacy-proj-id=:codacy-proj-id:
-target-sdk=:target-sdk:
-minimum-sdk=:minimum-sdk:
-target-android=:target-android:
-minimum-android=:minimum-android:
-package=:package:

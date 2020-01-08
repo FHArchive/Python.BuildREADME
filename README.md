@@ -1,153 +1,69 @@
-<p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/1cc53e72c9fa4d87be03d6085451cb2c.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/1cc53e72c9fa4d87be03d6085451cb2c.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/python.buildreadme.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/python.buildreadme.svg?style=flat-square" alt="Last commit">
-</p>
+<!--
+Note that this is a template, you will need to make changes and complete TODOs
 
+Optional: uncomment the code below
+-->
+
+<!--
+Built with md.README/build.py by Kieran W.
+Find out more at: https://github.com/FredHappyface/md.README
+
+-->
+
+
+<p float="left">
+<a href="../../"><img src="https://img.shields.io/github/languages/top/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="Github top language"></a>
+<a href="https://www.codacy.com/manual/FredHappyface/Python.BuildREADME"><img src="https://img.shields.io/codacy/grade/1cc53e72c9fa4d87be03d6085451cb2c.svg?style=flat-square" alt="Codacy grade"></a>
+<a href="https://www.codacy.com/manual/FredHappyface/Python.BuildREADME"><img src="https://img.shields.io/codacy/coverage/1cc53e72c9fa4d87be03d6085451cb2c.svg?style=flat-square" alt="Codacy coverage"></a>
+<a href="../../"><img src="https://img.shields.io/github/repo-size/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="Repository size"></a>
+<a href="../../issues"><img src="https://img.shields.io/github/issues/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="Issues"></a>
+<a href="/LICENSE.md"><img src="https://img.shields.io/github/license/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="License"></a>
+<a href="../../commits/master"><img src="https://img.shields.io/github/commit-activity/m/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="Commit activity"></a>
+<a href="../../commits/master"><img src="https://img.shields.io/github/last-commit/FredHappyface/Python.BuildREADME.svg?style=flat-square" alt="Last commit"></a>
+</p>
 
 # Python.BuildREADME
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
-A repository consisting of standard readmes providing details of how to run 
+A repository consisting of standard readmes providing details of how to run
 projects written in a range of programming languages
 
 
 Build a README file using fragments from the following subdirectories
 
-req
-core
-lang
-support
-screenshots
-extras
 
-## Example Use 
+## Language information
+### Built for
+This program has been written for Python 3 and has been tested with
+Python version 3.8.0 <https://www.python.org/downloads/release/python-380/>.
 
-Create the template for this markdown file (excludes Example Use and Help)
-```shell
-py build.py -o README -l ide/idle/python-3.7 -s limited -i desktop -e proj-icon
+Install with chocolatey
+```powershell
+choco install python
 ```
+### Other versions
+To install Python, go to <https://www.python.org/> and download the latest
+version.
+## How to run
+1. Open the .py file in vscode
+2. Ensure a python 3.8 interpreter is selected (Ctrl+Shift+P > Python:Select Interpreter > Python 3.8)
+3. Run by pressing Ctrl+F5 (if you are prompted to install any modules, accept)
 
-## Help
-
-Help for build.py - Author Kieran W
-2019-05-06
-
-Note: where .md is shown as a file extension, this can be omitted 
-
-### -n --nocore 
-Option to determine if core fragments are added to the output. Recommended to 
-omit this.
-
-Core modules are 
-```
-+---core
-|       proj-desc.md
-|       proj-down.md
-|       proj-lice.md
-|       proj-name.md
-```
-
-### -o --output
-Enter the filename to output to with or without '.md'. Leave blank for default
-
-### -l --lang
-Enter the programming language to use in the form ide/language or language.
-Use the latter for generalized readme.
-Leave blank for none 
-
-Options are:
-```
-+---lang
-|   |   android.md
-|   |   arm-v7.md
-|   |   c-sharp.md
-|   |   cpp.md
-|   |   go.md
-|   |   haskell.md
-|   |   java-8.md
-|   |   java.md
-|   |   minix-c.md
-|   |
-|   \---ide
-|       +---android-studio
-|       |       android.md
-|       |
-|       +---dcoder
-|       |       go-1.10.4.md
-|       |       go-1.6.md
-|       |       haskell-7.6.md
-|       |
-|       +---eclipse
-|       |       java.md
-|       |
-|       +---idle
-|       |       python-3.4.md
-|       |       python-3.7.md
-|       |
-|       +---vs
-|       |       c-sharp.md
-|       |       cpp.md
-|       |       java-8.md
-|       |
-|       \---vs-code
-```
-### -s --support
-Enter the type of support to use. Leave blank for none 
-```
-\---support
-        full.md
-        limited.md
-        none.md
-```
-### -i --images --screenshots
-Enter the type of screenshots to use
-```
-+---screenshots
-|       desktop-mobile.md
-|       desktop.md
-|       mobile.md
-```
-### -e --extras
-Enter any extras. Use -e for each extra
-```
-+---extras
-|       proj-browser-support.md
-|       proj-icon.md
-|       proj-theme.md
-```
-eg. for a pwa with an icon and themes, you may want to add the options
--o proj-browser-support -o proj-icon -o proj-theme
-
-### -v --verbose 
-Print debug to the terminal
-
-### -p --param 
-Specify parameters in the form -p param=value eg.
-```
--p proj-name="my fantastic project"
-```
-### -a --advanced-help
-Show the advanced help dialogue 
 
 ## Download
 ### Clone
-#### Using The Command Line 
+#### Using The Command Line
 1. Press the Clone or download button in the top right
 2. Copy the URL (link)
-3. Open the command line and change directory to where you wish to clone to
+3. Open the command line and change directory to where you wish to
+clone to
 4. Type 'git clone' followed by URL in step 2
 ```bash
-$ git clone https://github.com/[user-name]/[repository]
+$ git clone https://github.com/FredHappyface/Python.BuildREADME
 ```
 
-More information can be found at 
+More information can be found at
 <https://help.github.com/en/articles/cloning-a-repository>
 
 #### Using GitHub Desktop
@@ -155,8 +71,8 @@ More information can be found at
 2. Click open in desktop
 3. Choose the path for where you want and click Clone
 
-More information can be found at 
-<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop> 
+More information can be found at
+<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop>
 
 ### Download Zip File
 
@@ -164,33 +80,21 @@ More information can be found at
 2. Extract the zip archive
 3. Copy/ move to the desired location
 
-## Language information 
-### Built for
-This program has been written for Python 3 and has been tested with 
-Python version 3.7.0 <https://www.python.org/downloads/release/python-370/>
-on a Windows 10 PC. 
-### Other versions
-To install Python, go to <https://www.python.org/> and download the latest 
-version. 
-## How to run
-1. Open the .py file in IDLE
-2. Run by pressing F5 or by selecting Run> Run Module
 
-
-## Licence 
+## Licence
 MIT License
-Copyright (c) Kieran W
+Copyright (c) FredHappyface
 (See the [LICENSE](/LICENSE.md) for more information.)
 
 
-## Screenshots 
+## Screenshots
 
-### Desktop 
+### Desktop
 |Screenshots                                                                                  |
 |:-:                                                                                          |
 |<img src="readme-assets/screenshots/desktop/screenshot-1.png" alt="Screenshot 1" width="600">|
 |<img src="readme-assets/screenshots/desktop/screenshot-2.png" alt="Screenshot 2" width="600">|
-|<img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600">| 
+|<img src="readme-assets/screenshots/desktop/screenshot-3.png" alt="Screenshot 3" width="600">|
 
-## Support 
+## Support
 I use vscode as my editor which supports snippets so I will probably discontinue this
