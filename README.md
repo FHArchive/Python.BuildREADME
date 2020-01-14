@@ -24,7 +24,7 @@ Find out more at: https://github.com/FredHappyface/md.README
 
 # Python.BuildREADME
 
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 A repository consisting of standard readmes providing details of how to run
 projects written in a range of programming languages
